@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ServingWebContentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repos/MessageRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/artifacts/ItecoTest_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Hibernate_5_4_9_5_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_Batch_2_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_Data_JPA_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_Integration_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_Security_3_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_Web_Services_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/libraries/Spring_Webflow_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/ItecoTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/src/main/java/com/itecotest/dao/TaskDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/src/main/java/com/itecotest/dao/TaskDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/src/main/java/com/itecotest/model/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ItecoTest/web/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vj60k7wI8kGMTSw5tMk4clQZpx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServingWebContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ServingWebContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServingWebContentApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="" />
+      <created>1577753935542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577753935542</updated>
+      <workItem from="1577753937022" duration="3669000" />
+      <workItem from="1577765598839" duration="8411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="99" key="#Inspections" timestamp="1577766424453">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="320" y="99" key="#Inspections/0.23.1440.822@0.23.1440.822" timestamp="1577766424453" />
+    <state x="320" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577768849008">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="320" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1577768849008" />
+    <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1577766562387">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1577766562387" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1577775405542">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1577763184778" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1577756257088" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577775405542" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1577775405541">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1577763184778" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1577756257087" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577775405541" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1577775405540">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1577763184777" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1577756257086" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577775405540" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1577775405541">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1577763184778" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1577756257088" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577775405541" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1577775405544">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1577763184780" />
+    <state width="1398" height="210" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1577756257090" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577775405544" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1577775405543">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1577763184779" />
+    <state width="1398" height="210" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1577756257089" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1577775405543" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1577775405542">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1577763184779" />
+    <state width="1398" height="210" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1577756257089" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1577775405542" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1577775405543">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1577763184779" />
+    <state width="1398" height="210" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1577756257090" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1577775405543" />
+    <state x="399" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1577775885780">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1577775885780" />
+    <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1577765601841" />
+  </component>
+</project>
