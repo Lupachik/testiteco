@@ -2,9 +2,7 @@ package com.iteco.temp.controller;
 
 
 import com.iteco.temp.domain.Task;
-import com.iteco.temp.domain.User;
 import com.iteco.temp.repos.TaskRepo;
-import com.iteco.temp.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,18 +1,11 @@
-<!DOCTYPE HTML>
-<html xmlns = "http://www.w3.org/1999/xhtml">
-<head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
+<#import "parts/common.ftlh" as c>
+
+<@c.page>
 Add new Task
-{{#message}}
-    {{message}}
-{{/message}}
+${message?ifExists}
 <form action="/registration" method="post">
     <div><label>Task Name: <input type="text" name="name" /></label></div>
     <div><label>Task Description: <input type="text" name="description" /></label></div>
     <div><input type="submit" value="Sing in" /></div>
 </form>
-</body>
-</html>
+</@c.page>
