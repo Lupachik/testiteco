@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/domain/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/repo/TaskRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/add-task.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/index.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/tasks.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/update-task.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/controller/TempController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/controller/TempController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/domain/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/domain/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/repo/TaskRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/repos/TaskRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/main.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +160,7 @@
       <workItem from="1577947516517" duration="38245000" />
       <workItem from="1578168718956" duration="62000" />
       <workItem from="1578170823505" duration="1658000" />
+      <workItem from="1578237758567" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="demo заполение базы сообщениями">
       <created>1577776022425</created>
