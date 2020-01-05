@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Date;
 
 @Controller
-public class TempController {
+public class MainController {
     @Autowired
     private TaskRepo taskRepo;
 
-    @GetMapping("/temp")
-    public String temp(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
+    // ("/temp") меняем на корень("/")
+    @GetMapping("/")
+    public String temp(Model model) { ;
         return "temp";
     }
 
@@ -26,7 +26,8 @@ public class TempController {
     // соответственно вместо model.addAttribute будет model.put
 
     // не указывая в скобках ссылку подразумеваем корневую страницу
-    @GetMapping
+    // 4 этап выводим ее в отдельную страницу
+    @GetMapping("/main")
     public String main(Model model){
         Iterable<Task> tasks = taskRepo.findAll();
         model.addAttribute("tasks", tasks);
@@ -35,7 +36,8 @@ public class TempController {
 
     //обработка полей ввода
     //без дополнительного пути, тк форма будет отправляться на тот же адрес откуда пришла сама страничка
-    @PostMapping
+    // 4 этап выводим ее в отдельную страницу
+    @PostMapping("/main")
     public String add(@RequestParam String name,
                       @RequestParam String description,
                       Model model){
