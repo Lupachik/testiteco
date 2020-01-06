@@ -22,13 +22,11 @@ public class RegistrationController {
     public String addTask(Task task, Model model) {
         Task taskFromDb = taskRepo.findByName(task.getName());
         if(taskFromDb != null){
-            model.addAttribute("message", "Task exist!");
+            model.addAttribute("message", "Task exist!"); // это не нужно, т.к. задачи могут повторяться
             return "registration";
         }
-
-
         taskRepo.save(task);
-        //при успешной регистрации пока переходим на страницу main, а дальше по контексту на страницу list
-        return "redirect:/main";
+        //при успешной регистрации пока переходим на страницу main, а дальше по контексту на страницу task
+        return "redirect:/task";
     }
 }

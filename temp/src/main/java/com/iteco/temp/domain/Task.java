@@ -33,13 +33,13 @@ public class Task {
     //@Column(name = "status")
 //    private String status;
 
-    public Task() {
-    }
-    public Task(String name, String description){
-        //this.idtask = UUID.randomUUID().toString();
-        this.name = name;
-        this.description = description;
-    }
+//    public Task() {
+//    }
+//    public Task(String name, String description){
+//        //this.idtask = UUID.randomUUID().toString();
+//        this.name = name;
+//        this.description = description;
+//    }
 
     public Long getId() {
         return id;
