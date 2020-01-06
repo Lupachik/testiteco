@@ -1,11 +1,21 @@
 <#import "parts/common.ftlh" as c>
 
 <@c.page>
-Add new Task
 ${message?ifExists}
 <form action="/registration" method="post">
-    <div><label>Task Name: <input type="text" name="name" /></label></div>
-    <div><label>Task Description: <input type="text" name="description" /></label></div>
-    <div><input type="submit" value="Sing in" /></div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label">Task Name:</label>
+        <div class="col-sm-5">
+        <input class="form-control" type="text" name="name" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label">Task Description: </label>
+        <div class="col-sm-5">
+        <input class="form-control" type="text" name="description" />
+        </div>
+    </div>
+    <label class="col-sm-2 col-form-label">Add new Task</label>
+    <div class="col-sm-2"><button type="submit" class="btn btn-primary">Create</button></div>
 </form>
 </@c.page>
