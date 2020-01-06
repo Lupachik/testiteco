@@ -1,5 +1,7 @@
 package com.iteco.temp.domain;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.UUID;
@@ -13,10 +15,10 @@ public class Task {
     private Long id;
 
     //@Column(name = "project")
- //   private String project;
+    private String project;
 
     //@Column(name = "idtask")
-//    private String idtask; // = UUID.randomUUID().toString(); //автоматически будет формироваться taskId в конструкторе
+    private String idtask; // = UUID.randomUUID().toString(); //автоматически будет формироваться taskId в конструкторе
 
     //@Column(name = "name")
     private String name;
@@ -25,21 +27,19 @@ public class Task {
     private String description;
 
     //@Column(name = "datebegin")
-//    private Date datebegin;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date datebegin;
 
     //@Column(name = "dateend")
-//    private Date dateend;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date dateend;
 
     //@Column(name = "status")
-//    private String status;
+    private String status;
 
-//    public Task() {
-//    }
-//    public Task(String name, String description){
-//        //this.idtask = UUID.randomUUID().toString();
-//        this.name = name;
-//        this.description = description;
-//    }
+    public Task() {
+        this.idtask = UUID.randomUUID().toString();
+    }
 
     public Long getId() {
         return id;
@@ -48,23 +48,23 @@ public class Task {
     public void setId(Long id) {
         this.id = id;
     }
-//
-//    public String getProject() {
-//        return project;
-//    }
-//
-//    public void setProject(String project) {
-//        this.project = project;
-//    }
-//
-//    public String getIdtask() {
-//        return idtask;
-//    }
-//
-//    public void setIdtask(String idtask) {
-//        this.idtask = idtask;
-//    }
-//
+
+    public String getProject() {
+        return project;
+    }
+
+    public void setProject(String project) {
+        this.project = project;
+    }
+
+    public String getIdtask() {
+        return idtask;
+    }
+
+    public void setIdtask(String idtask) {
+        this.idtask = idtask;
+    }
+
     public String getName() {
         return name;
     }
@@ -80,28 +80,28 @@ public class Task {
     public void setDescription(String description) {
         this.description = description;
     }
-//
-//    public Date getDatebegin() {
-//        return datebegin;
-//    }
-//
-//    public void setDatebegin(Date datebegin) {
-//        this.datebegin = datebegin;
-//    }
-//
-//    public Date getDateend() {
-//        return dateend;
-//    }
-//
-//    public void setDateend(Date dateend) {
-//        this.dateend = dateend;
-//    }
-//
-//    public String getStatus() {
-//        return status;
-//    }
-//
-//    public void setStatus(String status) {
-//        this.status = status;
-//    }
+
+    public Date getDatebegin() {
+        return datebegin;
+    }
+
+    public void setDatebegin(Date datebegin) {
+        this.datebegin = datebegin;
+    }
+
+    public Date getDateend() {
+        return dateend;
+    }
+
+    public void setDateend(Date dateend) {
+        this.dateend = dateend;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }

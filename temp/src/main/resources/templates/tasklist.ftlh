@@ -5,6 +5,9 @@
     <table class="table table-bordered">
         <thead>
         <tr>
+            <th scope="col">#</th>
+            <th scope="col">Project</th>
+            <th scope="col">ID</th>
             <th scope="col">Name</th>
             <th scope="col">Description</th>
             <th scope="col">View</th>
@@ -15,6 +18,9 @@
         <tbody>
         <#list tasks as task>
             <tr>
+                <th>${task.id}</th>
+                <th>${task.project}</th>
+                <th>${task.idtask}</th>
                 <th>${task.name}</th>
                 <th>${task.description}</th>
                 <th><a href="/task/${task.id}">View</a> </th>
