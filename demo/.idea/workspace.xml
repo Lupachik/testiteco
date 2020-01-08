@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/taskEdit.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/tasklist.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../temp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/java/com/iteco/temp/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../temp/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/main.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../temp/src/main/resources/templates/registration.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/registration.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../temp/src/main/resources/templates/temp.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/src/main/resources/templates/temp.ftlh" afterDir="false" />
-    </list>
+    <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,6 +158,7 @@
       <workItem from="1578237758567" duration="8000" />
       <workItem from="1578254716538" duration="29000" />
       <workItem from="1578258011045" duration="1619000" />
+      <workItem from="1578304835417" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="demo заполение базы сообщениями">
       <created>1577776022425</created>

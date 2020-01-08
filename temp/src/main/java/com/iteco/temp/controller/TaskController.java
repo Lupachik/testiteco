@@ -31,12 +31,24 @@ public class TaskController {
     @PostMapping
     public String taskSave(
             @RequestParam String name,
-            @RequestParam Map<String, String> form,
             @RequestParam("taskId") Task task
     ){
         task.setName(name);
         taskRepo.save(task);
         return "redirect:/task";
+    }
+
+    @GetMapping("/delete/{task}")
+    public String deleteTask(@PathVariable Task task, Model model){
+        taskRepo.delete(task);
+        model.addAttribute("task", task);
+        return "redirect:/task";
+    }
+
+    @GetMapping("/view/{task}")
+    public String viewTask(@PathVariable Task task, Model model){
+        model.addAttribute("task", task);
+        return "taskView";
     }
 
 

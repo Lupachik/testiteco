@@ -23,9 +23,9 @@
                 <th>${task.idtask}</th>
                 <th>${task.name}</th>
                 <th>${task.description}</th>
-                <th><a href="/task/${task.id}">View</a> </th>
+                <th><a href="/task/view/${task.id}">View</a> </th>
                 <th><a href="/task/${task.id}">Edit</a> </th>
-                <th><a href="/task/${task.id}">Remove</a> </th>
+                <th><a href="/task/delete/${task.id}">Remove</a> </th>
             </tr>
         </#list>
         </tbody>

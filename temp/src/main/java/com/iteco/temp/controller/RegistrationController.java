@@ -22,7 +22,7 @@ public class RegistrationController {
     public String addTask(Task task, Model model) {
         Task taskFromDb = taskRepo.findByName(task.getName());
         if(taskFromDb != null){
-            model.addAttribute("message", "Task exist!"); // это не нужно, т.к. задачи могут повторяться
+            model.addAttribute("message", "Task exist!"); // проверка на дубляж названий задач, это не нужно, если задачи будут с одним названием
             return "registration";
         }
         taskRepo.save(task);
