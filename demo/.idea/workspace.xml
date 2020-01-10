@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testiteco/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testiteco/src/main/resources/templates/task-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/src/main/resources/templates/task-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testiteco/target/classes/templates/task-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/target/classes/templates/task-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testiteco/src/main/resources/templates/task-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/src/main/resources/templates/task-update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
