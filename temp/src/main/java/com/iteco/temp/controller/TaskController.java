@@ -7,8 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Map;
-
 @Controller
 @RequestMapping("/task") //подписали на уровне класса, чтобы у каждого метода не подписывать
 public class TaskController {
@@ -21,19 +19,25 @@ public class TaskController {
         return "tasklist";
     }
 
-    @GetMapping("{task}") // это показывает идентификатор задачи
+    @GetMapping("/edit/{task}") // это показывает идентификатор задачи
     public String taskEditForm(@PathVariable Task task, Model model){
         model.addAttribute("task", task);
 
         return "taskEdit";
     }
-
     @PostMapping
     public String taskSave(
+            @RequestParam String project,
             @RequestParam String name,
+            @RequestParam String description,
+            @RequestParam String status,
             @RequestParam("taskId") Task task
     ){
+        task.setProject(project);
         task.setName(name);
+        task.setDescription(description);
+        task.setStatus(status);
+
         taskRepo.save(task);
         return "redirect:/task";
     }
