@@ -32,40 +32,9 @@
         </ul>
     </div>
 </nav>
+
 <div class="container mt-5">
-<div th:switch="${tasks}">
-    <h2 th:case="null">No tasks!</h2>
-    <div th:case="*">
-        <h2>Tasks list</h2>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Project</th>
-                <th scope="col">ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Description</th>
-                <th scope="col">View</th>
-                <th scope="col">Edit</th>
-                <th scope="col">Remove</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="task : ${tasks}">
-                <td th:text="${task.id}"></td>
-                <td th:text="${task.project}"></td>
-                <td th:text="${task.idTask}"></td>
-                <td th:text="${task.name}"></td>
-                <td th:text="${task.description}"></td>
-                <td><a th:href="@{task-update/{id}(id=${task.id})}">View</a></td>
-                <td><a th:href="@{task-update/{id}(id=${task.id})}">Edit</a></td>
-                <td><a th:href="@{task-delete/{id}(id=${task.id})}">Remove</a></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <p><a href="/task-create">Create task</a></p>
-</div>
+<h1>Test iteco</h1>
 </div>
 
 <!-- Optional JavaScript -->

@@ -13,7 +13,7 @@ public class MainController {
 
     // ("/temp") меняем на корень("/")
     @GetMapping("/")
-    public String temp(Model model) { ;
+    public String temp(Model model) {
         return "temp";
     }
 

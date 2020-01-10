@@ -1,32 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
-<meta charset="UTF-8">
-<title>Create task</title>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Test iteco</title>
 </head>
 <body>
-<form action="#" th:action="@{/task-update}" th:object="${task}" method="post">
-    <label for="id">ID</label>
-    <input readonly type="number" th:field="*{id}" id="id" placeholder="ID">
-    <br/>
-    <label for="name">Project</label>
-    <input type="text" th:field="*{project}" id="project" placeholder="Project">
-    <br/>
-    <label for="name">Name</label>
-    <input type="text" th:field="*{name}" id="name" placeholder="Name">
-    <br/>
-    <label for="description">Description</label>
-    <input type="text" th:field="*{description}" id="description" placeholder="Description">
-    <br/>
-    <label for="name">Date begin</label>
-    <input type="date" th:field="*{datebegin}" id="datebegin" placeholder="Date begin">
-    <br/>
-    <label for="name">Date end</label>
-    <input type="date" th:field="*{dateend}" id="dateend" placeholder="Date end">
-    <br/>
-    <label for="name">Status</label>
-    <input type="text" th:field="*{status}" id="status" placeholder="Status">
-    <br/>
-    <input type="submit" value="Update Task">
-</form>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">ItecoTest</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/main">RPOJECT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/tasks">Task list</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="col-sm-5"><h3>Task editor</h3></div>
+    <form action="#" th:action="@{/task-update}" th:object="${task}" method="post">
+        <input class="form-control" readonly type="hidden" th:field="*{id}" id="id" placeholder="ID">
+        <div class="form-group">
+        <label for="name" class="col-sm-2 col-form-label">Project</label>
+            <div class="col-sm-5">
+        <input class="form-control" type="text" th:field="*{project}" id="project" placeholder="Project">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="name" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-5">
+        <input class="form-control" type="text" th:field="*{name}" id="name" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="description" class="col-sm-2 col-form-label">Description</label>
+            <div class="col-sm-5">
+        <input class="form-control" type="text" th:field="*{description}" id="description" placeholder="Description">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="datebegin"class="col-sm-2 col-form-label">Date begin</label>
+            <div class="col-sm-5">
+        <input class="form-control" type="date" th:field="*{datebegin}" id="datebegin" placeholder="Date begin">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="dateend"class="col-sm-2 col-form-label">Date end</label>
+            <div class="col-sm-5">
+        <input class="form-control" type="date" th:field="*{dateend}" id="dateend" placeholder="Date end">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="status"class="col-sm-2 col-form-label">Status</label>
+            <div class="col-sm-5">
+        <input class="form-control" type="text" th:field="*{status}" id="status" placeholder="Status">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+    </form>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

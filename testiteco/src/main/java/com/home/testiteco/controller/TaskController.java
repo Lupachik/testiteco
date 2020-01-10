@@ -20,6 +20,15 @@ public class TaskController {
         this.taskService = taskService;
     }
 
+    @GetMapping("/")
+    public String index(Model model) {
+        return "index";
+    }
+    @GetMapping("/main")
+    public String main(Model model) {
+        return "main";
+    }
+
     @GetMapping("/tasks")
     public String findAll(Model model){
         List<Task> tasks = taskService.findAll();
