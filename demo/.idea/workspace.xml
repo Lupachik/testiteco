@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="" />
+    <list default="true" id="04b388da-ebff-4e9f-b270-29b8a850a7c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testiteco/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testiteco/src/main/resources/templates/task-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/src/main/resources/templates/task-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testiteco/target/classes/templates/task-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../testiteco/target/classes/templates/task-create.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,6 +164,7 @@
       <workItem from="1578254716538" duration="29000" />
       <workItem from="1578258011045" duration="1619000" />
       <workItem from="1578304835417" duration="21000" />
+      <workItem from="1578662236655" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="demo заполение базы сообщениями">
       <created>1577776022425</created>
