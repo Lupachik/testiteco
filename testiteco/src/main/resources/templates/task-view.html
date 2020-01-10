@@ -32,40 +32,48 @@
         </ul>
     </div>
 </nav>
+
 <div class="container mt-5">
-<div th:switch="${tasks}">
-    <h2 th:case="null">No tasks!</h2>
-    <div th:case="*">
-        <h2>Tasks list</h2>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Project</th>
-                <th scope="col">ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Description</th>
-                <th scope="col">View</th>
-                <th scope="col">Edit</th>
-                <th scope="col">Remove</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="task : ${tasks}">
-                <td th:text="${task.id}"></td>
-                <td th:text="${task.project}"></td>
-                <td th:text="${task.idTask}"></td>
-                <td th:text="${task.name}"></td>
-                <td th:text="${task.description}"></td>
-                <td><a th:href="@{task-view/{id}(id=${task.id})}">View</a></td>
-                <td><a th:href="@{task-update/{id}(id=${task.id})}">Edit</a></td>
-                <td><a th:href="@{task-delete/{id}(id=${task.id})}">Remove</a></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <p><a href="/task-create">Create task</a></p>
-</div>
+    <div class="col-sm-5"><h3>Task view</h3></div>
+    <form action="#" th:action="@{/task-view}" th:object="${task}" method="post">
+        <input class="form-control" readonly type="hidden" th:field="*{id}" id="id" placeholder="ID">
+        <div class="form-group">
+        <label for="project" class="col-sm-2 col-form-label">Project</label>
+            <div class="col-sm-5">
+        <input class="form-control" readonly type="text" th:field="*{project}" id="project" placeholder="Project">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="name" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-5">
+        <input class="form-control" readonly type="text" th:field="*{name}" id="name" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="description" class="col-sm-2 col-form-label">Description</label>
+            <div class="col-sm-5">
+        <input class="form-control" readonly type="text" th:field="*{description}" id="description" placeholder="Description">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="datebegin"class="col-sm-2 col-form-label">Date begin</label>
+            <div class="col-sm-5">
+        <input class="form-control" readonly type="date" th:field="*{datebegin}" id="datebegin" placeholder="Date begin">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="dateend"class="col-sm-2 col-form-label">Date end</label>
+            <div class="col-sm-5">
+        <input class="form-control" readonly type="date" th:field="*{dateend}" id="dateend" placeholder="Date end">
+            </div>
+        </div>
+        <div class="form-group">
+        <label for="status"class="col-sm-2 col-form-label">Status</label>
+            <div class="col-sm-5">
+        <input class="form-control" readonly type="text" th:field="*{status}" id="status" placeholder="Status">
+            </div>
+        </div>
+    </form>
 </div>
 
 <!-- Optional JavaScript -->

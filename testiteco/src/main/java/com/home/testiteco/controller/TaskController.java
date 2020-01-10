@@ -47,6 +47,13 @@ public class TaskController {
         return "redirect:/tasks";
     }
 
+    @GetMapping("/task-view/{id}")
+    public String viewTask(@PathVariable("id") Long id, Model model){
+        Task task = taskService.findById(id);
+        model.addAttribute("task", task);
+        return "/task-view";
+    }
+
     @GetMapping("task-delete/{id}")
     public String deleteTask(@PathVariable("id") Long id){
         taskService.deleteById(id);
